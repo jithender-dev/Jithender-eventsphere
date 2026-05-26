@@ -1,0 +1,140 @@
+.events-page {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding: 30px;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #2563eb, #7c3aed);
+  border-radius: 24px;
+  padding: 60px;
+  color: white;
+  margin-bottom: 40px;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.hero-heading {
+  font-size: 48px;
+  margin-bottom: 20px;
+  max-width: 700px;
+  line-height: 1.2;
+}
+
+.hero-description {
+  font-size: 18px;
+  max-width: 650px;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+.events-title {
+  font-size: 34px;
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.event-card {
+  background-color: white;
+  width: 340px;
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 18px 40px rgba(0, 0, 0, 0.2);
+}
+
+.event-top h2 {
+  margin-top: 16px;
+  margin-bottom: 14px;
+  color: #0f172a;
+  font-size: 26px;
+}
+
+.event-description {
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.event-details p {
+  margin-bottom: 12px;
+  color: #334155;
+  font-size: 16px;
+}
+
+.event-badge {
+  background-color: #dbeafe;
+  color: #2563eb;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.search-container {
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 380px;
+  height: 52px;
+  border: none;
+  outline: none;
+  border-radius: 14px;
+  padding: 14px 18px;
+  font-size: 16px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
+}
+.capacity-bar-container {
+  width: 100%;
+  height: 12px;
+  background-color: #e2e8f0;
+  border-radius: 20px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.capacity-bar {
+  height: 100%;
+  background: linear-gradient(to right, #2563eb, #7c3aed);
+  border-radius: 20px;
+  transition: width 0.4s ease;
+}
+
+.capacity-text {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2563eb;
+}
+.book-button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.book-button {
+  width: 100%;
+  margin-top: 24px;
+  background: linear-gradient(to right, #2563eb, #7c3aed);
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-button:hover {
+  transform: scale(1.03);
+}
+

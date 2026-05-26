@@ -1,0 +1,135 @@
+###
+GET http://localhost:5000
+
+###
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Jithender",
+  "email": "jithu@gmail.com",
+  "password": "123456",
+  "role": "organizer"
+}
+
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "jithu@gmail.com",
+  "password": "123456"
+}
+
+###
+GET http://localhost:5000/api/events
+
+###
+POST http://localhost:5000/api/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im9yZ2FuaXplciIsImlhdCI6MTc3OTYzODAzM30.v7fPhkXs345mm6r57bq4oaCGrG0sNfK8ktIX30T-Y1g
+
+{
+  "title": "Tech Conference",
+  "description": "AI Event",
+  "location": "Hyderabad",
+  "date": "2026-06-01",
+  "capacity": 100
+}
+
+
+
+###
+POST http://localhost:5000/api/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im9yZ2FuaXplciIsImlhdCI6MTc3OTY0MzE5MH0.dd5h_ZTyDVMrGODz5MOW-JZ2oxwCtf_-XvVf3mmIzeM
+
+{
+  "title": "Music Fest 2026",
+  "description": "Live concert with famous artists",
+  "location": "Mumbai",
+  "date": "2026-07-15",
+  "capacity": 500
+}
+
+###
+POST http://localhost:5000/api/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im9yZ2FuaXplciIsImlhdCI6MTc3OTY0MzE5MH0.dd5h_ZTyDVMrGODz5MOW-JZ2oxwCtf_-XvVf3mmIzeM
+
+{
+  "title": "AI Workshop",
+  "description": "Hands-on AI and Machine Learning training",
+  "location": "Hyderabad",
+  "date": "2026-08-10",
+  "capacity": 200
+}
+
+###
+POST http://localhost:5000/api/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im9yZ2FuaXplciIsImlhdCI6MTc3OTY0MzE5MH0.dd5h_ZTyDVMrGODz5MOW-JZ2oxwCtf_-XvVf3mmIzeM
+
+{
+  "title": "Startup Summit",
+  "description": "Networking event for startups and investors",
+  "location": "Bangalore",
+  "date": "2026-09-05",
+  "capacity": 300
+}
+
+###
+POST http://localhost:5000/api/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im9yZ2FuaXplciIsImlhdCI6MTc3OTY0MzE5MH0.dd5h_ZTyDVMrGODz5MOW-JZ2oxwCtf_-XvVf3mmIzeM
+
+{
+  "title": "Gaming Expo",
+  "description": "Esports tournament and gaming showcase",
+  "location": "Chennai",
+  "date": "2026-10-01",
+  "capacity": 400
+}
+
+###
+POST http://localhost:5000/api/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im9yZ2FuaXplciIsImlhdCI6MTc3OTY0MzE5MH0.dd5h_ZTyDVMrGODz5MOW-JZ2oxwCtf_-XvVf3mmIzeM
+
+{
+  "title": "Tech Conference",
+  "description": "Latest trends in software development",
+  "location": "Pune",
+  "date": "2026-11-20",
+  "capacity": 250
+}
+
+###
+POST http://localhost:5000/api/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im9yZ2FuaXplciIsImlhdCI6MTc3OTY0MzE5MH0.dd5h_ZTyDVMrGODz5MOW-JZ2oxwCtf_-XvVf3mmIzeM
+
+{
+  "title": "Cyber Security Meetup",
+  "description": "Learn ethical hacking and security practices",
+  "location": "Delhi",
+  "date": "2026-12-12",
+  "capacity": 150
+}
+
+###
+GET http://localhost:5000/api/events/2
+
+###
+POST http://localhost:5000/api/book-ticket
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im9yZ2FuaXplciIsImlhdCI6MTc3OTYzODAzM30.v7fPhkXs345mm6r57bq4oaCGrG0sNfK8ktIX30T-Y1g
+
+{
+  "eventId": 1
+}
+
+###
+GET http://localhost:5000/api/tickets
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im9yZ2FuaXplciIsImlhdCI6MTc3OTYzODAzM30.v7fPhkXs345mm6r57bq4oaCGrG0sNfK8ktIX30T-Y1g
+

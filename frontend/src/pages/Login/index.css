@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.login-bg-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #2563eb, #7c3aed);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-card {
+  background-color: white;
+  width: 950px;
+  border-radius: 24px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.login-left {
+  width: 50%;
+  background: linear-gradient(to bottom, #1d4ed8, #7c3aed);
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-title {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.app-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.login-image {
+  width: 280px;
+  align-self: center;
+}
+
+.login-form {
+  width: 50%;
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-heading {
+  font-size: 34px;
+  margin-bottom: 35px;
+  color: #0f172a;
+}
+
+.label {
+  margin-bottom: 8px;
+  color: #334155;
+  font-weight: 600;
+}
+
+.input {
+  height: 50px;
+  padding: 12px;
+  margin-bottom: 22px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+  outline: none;
+}
+
+.input:focus {
+  border: 2px solid #2563eb;
+}
+
+.login-button {
+  height: 50px;
+  background: linear-gradient(to right, #2563eb, #7c3aed);
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  transform: scale(1.02);
+}
+
+.bottom-text {
+  margin-top: 20px;
+  text-align: center;
+  color: #475569;
+}
+.logo-circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  backdrop-filter: blur(10px);
+}
+
+.logo-text {
+  font-size: 58px;
+  color: white;
+  font-weight: bold;
+}
+
+.brand-name {
+  font-size: 40px;
+  margin-bottom: 14px;
+  font-weight: bold;
+}
+
+.brand-tagline {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.register-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}

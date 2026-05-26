@@ -1,0 +1,112 @@
+.dashboard-page {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding: 30px;
+}
+
+.dashboard-hero {
+  background: linear-gradient(to right, #0f172a, #2563eb);
+  border-radius: 24px;
+  padding: 50px;
+  color: white;
+  margin-bottom: 35px;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-heading {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.dashboard-description {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.stats-card {
+  background-color: white;
+  width: 280px;
+  padding: 28px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.stats-card h2 {
+  color: #475569;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.stats-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.tickets-heading {
+  font-size: 34px;
+  color: #0f172a;
+  margin-bottom: 25px;
+}
+
+.tickets-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.ticket-card {
+  background-color: white;
+  width: 340px;
+  padding: 24px;
+  border-radius: 24px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.ticket-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 18px 40px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-top {
+  margin-bottom: 20px;
+}
+
+.ticket-badge {
+  background-color: #dcfce7;
+  color: #16a34a;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.ticket-top h2 {
+  margin-top: 16px;
+  color: #0f172a;
+}
+
+.qr-image {
+  width: 220px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.download-button {
+  width: 100%;
+  background: linear-gradient(to right, #2563eb, #7c3aed);
+  border: none;
+  color: white;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.download-button:hover {
+  transform: scale(1.03);
+}
